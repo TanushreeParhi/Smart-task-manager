@@ -1,0 +1,85 @@
+/* signup.css */
+
+.body-bg {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+}
+
+.signup-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signup-card {
+  background: rgba(0, 0, 0, 0.7);
+  padding: 40px;
+  border-radius: 20px;
+  width: 100%;
+  max-width: 400px;
+  color: white;
+  text-align: center;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+}
+
+.signup-card h2 {
+  margin-bottom: 10px;
+}
+
+.signup-card p {
+  font-size: 14px;
+  color: #ccc;
+  margin-bottom: 25px;
+}
+
+.signup-card input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+}
+
+.signup-card input::placeholder {
+  color: #bbb;
+}
+
+.signup-card button {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  background: linear-gradient(90deg, #007bff, #00c6ff);
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.signup-card button:hover {
+  transform: scale(1.05);
+}
+
+.login-text {
+  display: block;
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.login-text a {
+  color: #00c6ff;
+  text-decoration: none;
+}
+
+/* Responsive */
+@media (max-width: 500px) {
+  .signup-card {
+    padding: 25px;
+  }
+}

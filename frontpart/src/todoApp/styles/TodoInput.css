@@ -1,0 +1,58 @@
+.input-lavel{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 60px;
+    
+}
+#input-task{
+    width: 40%;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+  
+}
+#input-task:focus{
+    outline:none;
+    border-color: #007BFF;
+    box-shadow: 0 0 5px rgba(0,123,255,0.5);
+    border-radius: 20px;
+}
+#add-task-btn{
+    width: 10%;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+@media screen and (max-width:745px){
+    #add-task-btn{
+        width:20%;
+    }
+    
+}
+#add-task-btn:hover{
+    background-color: #218838;
+    border-radius: 20px;
+}
+.error-lavel{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    
+}
+#error-text{
+    width: 50%;
+    font-size: 16px;
+    color:red;
+   
+}

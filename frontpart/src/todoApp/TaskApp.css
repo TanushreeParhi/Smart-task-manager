@@ -1,0 +1,9 @@
+*{
+  margin: 0;
+}
+#app-div{
+  width: 100%;
+  min-height:100vh; 
+   background: linear-gradient(135deg,#0D0F29,#242852,#3A406B,#646A9C,#B0B3D9);
+  margin:0; 
+}

@@ -1,0 +1,87 @@
+.about-page {
+  background: linear-gradient(135deg, #020617, #020617, #062c3f);
+  color: white;
+  padding: 40px;
+}
+
+/* Hero */
+.about-hero {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.about-hero h1 {
+  font-size: 42px;
+  margin-bottom: 10px;
+}
+
+.about-hero p {
+  color: #bbb;
+  max-width: 600px;
+  margin: auto;
+}
+
+/* Features */
+.about-features h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.feature-card {
+  background: rgba(255,255,255,0.05);
+  padding: 20px;
+  border-radius: 12px;
+  transition: 0.3s;
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+  background: rgba(255,255,255,0.08);
+}
+
+/* Flow */
+.about-flow {
+  margin-top: 60px;
+  text-align: center;
+}
+
+.flow-steps {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.flow-steps div {
+  background: #1e293b;
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+
+/* CTA */
+.about-cta {
+  margin-top: 60px;
+  text-align: center;
+}
+
+.about-cta button {
+  margin-top: 15px;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 8px;
+  background: #3b82f6;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.about-cta button:hover {
+  background: #2563eb;
+}

@@ -1,0 +1,10 @@
+.bg_gradient{
+    min-height: 120vh;
+    max-width: 100%;
+  background-image: url("../assets/landing_bg_img.jpg");
+  background-size:cover ;
+  
+  display: grid;
+  place-items: start;
+
+}

@@ -1,0 +1,34 @@
+ .hero_box{
+  min-height: 90vh;
+  width: 70rem;
+  background-image: url("../assets/img2.jpg");
+  background-size:cover ;
+  display: grid;
+  margin: 5% 0 0 5.5%;
+  
+  
+}
+/* navbar ouuter box */
+ .navbar_outer_box{
+    height: auto;
+    width: 100%;
+} 
+
+/* hero content */
+ .hero_section_intro{
+   
+    position:absolute;
+    top: 35%;
+    left:35%;
+    right: 10%;
+    display: flex;
+    flex-wrap: wrap;
+   
+  
+} 
+/* started btn outer div */
+ .started_btn_div{
+    position:relative;
+    left:35%;
+    margin-top: 10%;
+}  

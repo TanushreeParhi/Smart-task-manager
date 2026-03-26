@@ -1,0 +1,7 @@
+#todo-list-parent{
+    width: 100%;
+    display: grid;
+    place-items: center;
+    gap: 40px;
+    margin-top: 80px;
+}
